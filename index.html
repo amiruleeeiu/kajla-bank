@@ -67,7 +67,7 @@
             const transactionArea=document.getElementById("transaction-area");
             transactionArea.style.display="block";
         });
-
+        // deposite button event handler
         const depositbtn=document.getElementById("addDeposit");
         depositbtn.addEventListener("click",function(){
             const depositNumber=getInputNumber("depositAmount");
@@ -77,7 +77,7 @@
 
             document.getElementById("depositAmount").value=""; 
        });
-
+        // withdraw button event handler
         const withdrawbtn=document.getElementById("addWithdraw");
         withdrawbtn.addEventListener("click",function(){
             const withdrawNumber=getInputNumber("withdrawAmount");
